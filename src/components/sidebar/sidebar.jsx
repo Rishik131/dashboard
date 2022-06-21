@@ -4,9 +4,26 @@ import "./sidebar.scss"
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <div className="top"></div>
-        <div className="mid"></div>
-        <div className="bottom"></div>
+        <div className="top">
+            <span className="logo">My admin</span>
+        </div>
+        <div className="mid">
+            <ul>
+                <li>
+                    <span>Dashboard</span>
+                </li>
+                <li>
+                    <span>Dashboard</span>
+                </li>
+                <li>
+                    <span>Dashboard</span>
+                </li>
+                <li>
+                    <span>Dashboard</span>
+                </li>
+            </ul>
+        </div>
+        <div className="bottom">colors</div>
     </div>
   )
 }
