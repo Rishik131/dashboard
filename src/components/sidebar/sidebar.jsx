@@ -7,19 +7,44 @@ const Sidebar = () => {
         <div className="top">
             <span className="logo">My admin</span>
         </div>
+        <hr/>
         <div className="mid">
             <ul>
                 <li>
                     <span>Dashboard</span>
                 </li>
                 <li>
-                    <span>Dashboard</span>
+                    <span>users</span>
                 </li>
                 <li>
-                    <span>Dashboard</span>
+                    <span>products</span>
                 </li>
                 <li>
-                    <span>Dashboard</span>
+                    <span>Orders</span>
+                </li>
+                <li>
+                    <span>Delivery</span>
+                </li>
+                <li>
+                    <span>Stats</span>
+                </li>
+                <li>
+                    <span>Notifications</span>
+                </li>
+                <li>
+                    <span>System Health</span>
+                </li>
+                <li>
+                    <span>Logs</span>
+                </li>
+                <li>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <span>Profile</span>
+                </li>
+                <li>
+                    <span>Logout</span>
                 </li>
             </ul>
         </div>
