@@ -16,7 +16,7 @@ const Widgets = ({type}) => {
                 title: "USERS",
                 isMoney: false,
                 link: "See all users",
-                icon: <persobOutlinedIcon className="icon"/>
+                icon: <PersonOutlinedIcon className="icon"/>
             };
             break;
         case "order":
