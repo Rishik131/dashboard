@@ -29,15 +29,17 @@ const Navbar = () => {
                 </div>
                 <div className="item">
                     <NotificationsNoneOutlinedIcon className="icon"/>
+                    <div className="counter">1</div>
                 </div>
                 <div className="item">
                     <ChatBubbleRoundedIcon className="icon"/>
+                    <div className="counter">1</div>
                 </div>
                 <div className="item">
                     <ListOutlinedIcon className="icon"/>
                 </div>
                 <div className="item">
-                    <img src="" alt="profile" className='avatar' />
+                    <img src="https://github.com/Rishik131/dashboard/blob/main/src/components/imgs/1.jpg?raw=true" alt="profile" className='avatar' />
                 </div>
             </div>
         </div>
