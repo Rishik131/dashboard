@@ -2,8 +2,14 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='navbar'>
+        <div className="wrapper">
+            <div className="search">
+                <input type="text" placeholder='Search' />
+            </div>
+        </div>
+    </div>
   )
 }
 
-export default Navbar
+export default Navbar 
