@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <div className="home">
       <Sidebar/>
-      <div className="homecontainer">container</div>
+      <div className="homecontainer">
+        <Navbar/>
+        container
+      </div>
     </div>
   )
 }
