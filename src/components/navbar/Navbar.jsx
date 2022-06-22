@@ -18,23 +18,26 @@ const Navbar = () => {
             </div>
             <div className="items">
                 <div className="item">
-                    <LanguageRoundedIcon/>
+                    <LanguageRoundedIcon className="icon"/>
                     English
                 </div>
                 <div className="item">
-                    <DarkModeOutlinedIcon/>
+                    <DarkModeOutlinedIcon className="icon"/>
                 </div>
                 <div className="item">
-                    <FullscreenExitOutlinedIcon/>
+                    <FullscreenExitOutlinedIcon className="icon"/>
                 </div>
                 <div className="item">
-                    <NotificationsNoneOutlinedIcon/>
+                    <NotificationsNoneOutlinedIcon className="icon"/>
                 </div>
                 <div className="item">
-                    <ChatBubbleRoundedIcon/>
+                    <ChatBubbleRoundedIcon className="icon"/>
                 </div>
                 <div className="item">
-                    <ListOutlinedIcon/>
+                    <ListOutlinedIcon className="icon"/>
+                </div>
+                <div className="item">
+                    <img src="" alt="profile" className='avatar' />
                 </div>
             </div>
         </div>
